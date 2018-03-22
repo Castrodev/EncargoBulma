@@ -1,0 +1,42 @@
+/*
+Ejercicio 03
+La maquina del tiempo tiene una batería muy estable, pero necesito saber cual es su corriente, tengo un voltaje de 250[V] y una resistencia de 100[Kohm].
+(Voltaje = Resistencia x Corriente [V=I.R {Voltaje=Amperio x Ohm}]). 
+Haz un programa que me ayude a calcular las veces necesarias la corriente de diferentes tipos de baterías, tomando en cuenta que cambiara el voltaje y la resistencia.
+*/
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Ejercicio03 {
+	class Program 
+	{
+		static void Main (string [] args)
+		{
+			private static float funcionCalculoCorriente (float voltaje, int resistencia)
+			{
+				float corriente = voltaje/resistencia;
+				return corriente;
+
+			}
+
+			private static void funcionInicio()
+			{
+				Console.WriteLine("Ingresa el valor del voltaje de la bateria de la maquina del tiempo");
+				float voltaje = (float)Convert.ToDouble(Console.ReadLine());
+
+				Console.WriteLine("Ingresa el valor de la resistencia de la bateria de la maquina del tiempo");
+				int resistencia = (float)Convert.ToInt32(Console.ReadLine());
+
+				float corriente = funcionCalculoCorriente(voltaje, resistencia);
+
+				Console.WriteLine("La corriente es: " +corriente.ToString());
+				Console.ReadLine();
+
+
+			}
+		}
+	}
+}
