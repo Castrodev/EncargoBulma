@@ -1,8 +1,8 @@
-Arquitectura de Computadoras - Tarea 03
-    ==========================
+	# Arquitectura de Computadoras - Tarea 03
+
 
     Programas a petición de Bulma del universo 7
-    ---------------------------
+    
 
     >Código 1 – Calcular la velocidad, lenguaje de programación Java
     >
