@@ -11,7 +11,7 @@ Haz un programa que me ayude a calcular las veces necesarias el peso de la máqu
 	gravedad = 9.8
 
 	#Input fuerza
-	fuerza = input("Ingresa la fuerza de la máquina del tiempo en kg: ")
+	fuerza = input("Ingresa la fuerza de la máquina del tiempo en N: ")
 	print fuerza
 	print
 
@@ -19,7 +19,7 @@ Haz un programa que me ayude a calcular las veces necesarias el peso de la máqu
 	masa = (fuerza / gravedad)
 	peso = (masa * gravedad)
 
-	print "El peso de la máquina del tiempo es = {} Newtons".format(peso)
+	print "El peso de la máquina del tiempo es = {} kg".format(peso)
 	    
 	#Fin
 	
